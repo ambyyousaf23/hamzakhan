@@ -4,11 +4,19 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <style>
+li {
+  list-style-position: outside;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+</style>
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
 
   <div class="mb-10 text-justify">
+    
    Senior Data Engineer with over 8 years of experience in designing, implementing, and maintaining scalable data architectures and pipelines. 
 <li>	Designing and maintain scalable data pipelines using  ETL tools like Apache Nifi, Apache Spark, SSIS, Airflow, Airbyte, ODI etc.</li>
 <li>	Expert in Linux/Unix environments and skilled in leveraging Hive, Spark, Teradata, SQL Server, Oracle PL/SQL, MySQL, and DB2 for advanced data engineering and analytics solutions..</li>
